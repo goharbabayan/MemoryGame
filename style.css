@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(185, 143, 223);
+    border-radius: 10px;
+    font-size: 20px;
+}
+.settings {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(207, 188, 226);
+    margin: 50px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+button {
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#count {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    width: 20rem;
+}
+
+
+.category {
+    margin:10px;
+    padding: 15px;
+}
+

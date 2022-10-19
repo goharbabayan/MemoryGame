@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <div class="container">
+        <div class="settings">
+            <h1>MEMORY GAME</h1>
+            <h2>Settings</h2>
+            <h2>CATEGORY</h2>
+            <form class="category">
+                <input type="radio" name="category" id="abstract" value="abstract">
+                <label for="abstract">Abstract</label>
+                <input type="radio" name="category" id="people" value="people">
+                <label for="people">People</label>
+                <input type="radio" name="category" id="nature" value="nature">
+                <label for="nature">Nature</label>
+                <input type="radio" name="category" id="animals" value="animals">
+                <label for="animals">Animals</label>
+            </form>
+            <h2>Amount of cards</h2>
+            <div id="count">
+                <button class="btn" id="minus">-</button>
+                <h2 id="card-count">2</h2>
+                <button class="btn" id="plus">+</button>
+            </div>
+            <button id="start">Start</button>
+        </div>
+    </div>
+</head>
+<body>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
